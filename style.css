@@ -1,0 +1,120 @@
+*{
+    margin: o;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(228, 193, 193);
+    color: rgb(73, 54, 179);
+    padding: 15px;
+}
+
+li,h1,ul{
+    display: inline-block;
+
+    
+}
+ul{
+    margin-left: 50%;
+}
+li{
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+}
+li:hover{
+       color: rgb(240, 80, 6);
+}
+div{
+    margin: 20px;
+  
+}
+
+.info{
+margin-left: 5%;
+padding-top:1%;
+}
+.info h1{
+    font-size: 65px;
+    color: rgb(240, 80, 6);
+}
+.info h1{
+    font-size: 65px;
+   letter-spacing: 1px;
+   line height: 24px;
+}
+.info span{
+ color: rgb(240, 80, 6);
+}
+.info a{
+     text-decoration: none;
+     color: #fff;
+     background:  black;
+     margin: 26px 0;
+     padding: 10px 18px;
+     border-radius: 10px;
+     display: inline-block;
+
+
+}
+.info a:hover{
+    background: skyblue;
+}
+.image{
+
+    width:50%;
+    height: 80%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+ 
+}
+.image img{
+position:absolute;
+height:110%;
+left: 70%;
+transform: translate(-55%);
+bottom: 0;
+transition: left 8s ease;
+}
+
+.image:hover .girly{
+    left: 55%;
+}
+nav h1:hover{
+    color:  rgb(240, 80, 6);
+}
+.footer h3{
+   margin-left: 4%;
+padding-top:1%;
+ margin-right: 2%;
+
+}
+.footer h3{
+     text-decoration: none;
+     color: #fff;
+     background:  rgb(216, 64, 5);
+     margin left: 20px 0;
+     padding: 10px 15px;
+     border-radius: 10px;
+     display: inline-block;
+}
+.footer h3:hover{
+    background: skyblue;
+
+
+
+}
+.footer h4{
+    margin-left: 4%;
+}
+.footer h2{
+    margin-left: 4%;
+    color:  rgb(216, 64, 5);
+
+}
+.footer h5{
+    color:blue;
+    margin-left: 4%;
+  
+}
